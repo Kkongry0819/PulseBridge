@@ -2,10 +2,7 @@ name: Publish Windows release
 
 on:
   push:
-    branches: [main]
     tags: ['v*']
-    paths:
-      - '.github/workflows/release.yml'
   workflow_dispatch:
     inputs:
       tag:
