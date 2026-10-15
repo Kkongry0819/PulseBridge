@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none" role="img" aria-label="PulseBridge">
+ <defs><linearGradient id="rose" x1="0" y1="0" x2="96" y2="96" gradientUnits="userSpaceOnUse"><stop stop-color="#FFBDD4"/><stop offset="1" stop-color="#F075A2"/></linearGradient></defs>
+ <rect width="96" height="96" rx="24" fill="url(#rose)"/>
+ <path d="M48 74C40 67 20 54 20 38C20 24 38 20 48 34C58 20 76 24 76 38C76 54 56 67 48 74Z" fill="#231928"/>
+ <path d="M14 48H32L40 36L49 59L58 43L64 48H82" stroke="#FFF0F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+ <circle cx="75" cy="17" r="5" fill="#95E6CC"/>
+</svg>

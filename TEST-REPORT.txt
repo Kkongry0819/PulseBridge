@@ -1,0 +1,64 @@
+PulseBridge 1.1.0 UI & Branding Validation
+Date: 2026-10-16 (Asia/Shanghai)
+Build: Release / win-x64 / self-contained; 0 warnings, 0 errors.
+Runtime: retained .NET 10.0.8 from the original portable distribution.
+
+CORE CHECKS
+PASS BLE 8-bit sample
+PASS BLE 16-bit sample
+PASS BLE truncated packet rejected
+PASS BLE no skin contact rejected
+PASS Starts disconnected
+PASS Accept fresh sample
+PASS Invalid BPM rejected
+PASS Out-of-order sample rejected
+PASS Stale and future sample rejected
+PASS Stale state clears BPM at 15 seconds
+PASS Output template replacement
+PASS Atomic text output
+PASS JSON output
+PASS CSV session export
+PASS Disconnect clears current reading and rejects updates
+PASS Demo explicitly labeled in output
+PASS Official Pulsoid payload parsing
+PASS HTTP health route
+PASS HTTP unauthenticated write blocked
+PASS HTTP authenticated push updates state
+PASS Status command endpoint reads pushed BPM
+PASS HTTP JSON endpoint
+PASS HTTP invalid BPM rejected
+PASS HTTP wrong JSON type rejected
+PASS HTTP malformed JSON rejected
+PASS HTTP stale measured_at rejected
+PASS LAN read requires authentication
+PASS Unknown HTTP route rejected
+PASS HTTP oversized body rejected
+PASS Inactive HTTP source rejects writes
+PASS OSC packet UTF-8, padding and boolean tags
+SUCCESS 31 checks
+
+GUI INTEGRATION
+PASS Window icon and vector brand resource load
+PASS BLE provider panel visibility
+PASS GUI missing-token validation
+PASS GUI HTTP connection state
+PASS HTTP production handler updates GUI and preview
+PASS GUI statistics update
+PASS GUI disconnect clears BPM
+PASS GUI template and demo labeling
+PASS Trend draws samples and latest point
+PASS Reduced motion stops heartbeat and halo immediately
+PASS Reduced motion preference persists
+PASS Heartbeat restarts when animation is enabled
+PASS Minimized window suspends heartbeat
+PASS Minimum window preserves controls without horizontal overflow
+PASS GUI session exports demo provenance
+PASS Disconnect stops heartbeat and live trend marker
+SUCCESS 16 GUI integration checks
+
+VISUAL REVIEW
+PASS Actual Windows window: logo, dark native title bar, input padding, complete port digits.
+PASS Dark provider popup with all four sources.
+PASS 1240 x 940 rendered demo screenshot.
+NOTE Real BLE wearables, Pulsoid account and VRChat receipt were not retested for this visual update.
+NOTE Core HTTP checks use the production stream handler; this report does not claim live HTTP/UDP or device delivery.

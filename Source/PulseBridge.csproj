@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>1.1.0</Version>
+    <ApplicationIcon>Assets\PulseBridge.ico</ApplicationIcon>
+    <Description>PulseBridge 心率与状态同步</Description>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\PulseBridge.ico" />
+    <Resource Include="Assets\logo.png" />
+    <Compile Remove="BleHelper.cs" />
+    <None Include="BleHelper.exe" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

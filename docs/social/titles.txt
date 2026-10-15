@@ -1,0 +1,4 @@
+给 NekoTrak / VRChat 玩家做了个心率小工具：PulseBridge
+让心跳成为你的状态：PulseBridge v1.1 开发分享
+给状态展示加点心跳，我做了个 Windows 心率工作台
+把心跳接到电脑，再带进你的虚拟世界
