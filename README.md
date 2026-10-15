@@ -41,6 +41,12 @@
 
 设备兼容取决于型号、固件与广播能力；部分第三方云端接入可能需要订阅。详细条件与接入步骤请阅读[使用指南](docs/USER-GUIDE.md)。
 
+## 下载安装
+
+前往 [Releases 下载 Windows x64 发布版](https://github.com/Kkongry0819/PulseBridge/releases/latest)，选择 `PulseBridge-v1.1.0-windows-x64.zip`，完整解压后双击 `PulseBridge.exe`。发布包包含 .NET 桌面运行时，请保留整个文件夹。
+
+`SHA256SUMS.txt` 可用于核对下载文件；GitHub 自动生成的 Source code 压缩包用于查看和构建源码。
+
 ## 从源码构建
 
 需要 Windows x64、[.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) 和 [.NET Framework 4.8 Developer Pack](https://dotnet.microsoft.com/download/dotnet-framework/net48)。
